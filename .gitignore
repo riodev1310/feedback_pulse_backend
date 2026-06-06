@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+
+# Local environment
+.env
+
+# Python cache / artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local databases / build output
+app.db
+*.sqlite3
+build/
+dist/
+*.egg-info/
+
+# OS / editor noise
+.DS_Store
